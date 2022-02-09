@@ -1,0 +1,17 @@
+/** Print CSS **/
+/* Header CSS */
+#Header .nav {
+  display: none;
+}
+#Header .block {
+  box-shadow: none;
+  background: none;
+}
+.column {
+  display: block;
+  height: auto !important;
+}
+.column .head {
+  border: none;
+  border-bottom: 1px solid #000;
+}

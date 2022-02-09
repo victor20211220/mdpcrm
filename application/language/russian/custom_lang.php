@@ -1,0 +1,25 @@
+<?php
+
+$lang = [
+    'add_supplier'            => 'Добавить поставщика',
+    'change_supplier'         => 'Изменить поставщика',
+    'create_invoice_supplier' => 'Создать инвойс',
+    'create_received_invoice' => 'Создать полученный инвойс',
+    'expenses'                => 'Затраты',
+    'expenses_by_supplier'    => 'Затраты по поставщику',
+    'expenses_with_tax'       => 'Затраты с налогами',
+    'received_invoices_total' => 'Полученные инвойсы всего',
+    'supplier_name'           => 'Название поставщика',
+    'supplier_reg_number'     => 'Регистрационный номер поставщика',
+    'suppliers'               => 'Поставщики',
+    'tasks_in_progress'       => 'Задачи в процессе',
+    'tasks_not_started'       => 'Задачи не начатые',
+    'time'                    => 'Время',
+    'total_without_vat'       => 'Всего без НДС',
+    'total_with_vat'          => 'Всего с НДС',
+    'vat_amount'              => 'сумма НДС',
+    'unpaid_invoices'         => 'Неоплаченные инвойсы',
+    'VAT'                     => 'НДС',
+    'view_suppliers'          => 'Просмотр поставщиков',
+    'new_total_with_tax'      => 'Итого с НДС',
+];

@@ -1,0 +1,883 @@
+2016-03-18 10:08:08: null imput string2016-03-18 10:08:32: null imput string2016-03-18 10:08:39: null imput string2016-03-18 10:14:08: <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 258</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 196</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: QR_MODE_NUM</p>
+<p>Filename: phpqrcode/qrspec.php</p>
+<p>Line Number: 148</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrinput.php</p>
+<p>Line Number: 503</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 258</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 133</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: QR_MODE_NUM</p>
+<p>Filename: phpqrcode/qrspec.php</p>
+<p>Line Number: 148</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrinput.php</p>
+<p>Line Number: 503</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 258</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 196</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: QR_MODE_NUM</p>
+<p>Filename: phpqrcode/qrspec.php</p>
+<p>Line Number: 148</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 74</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrinput.php</p>
+<p>Line Number: 503</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 74</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 258</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 95</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: QR_MODE_NUM</p>
+<p>Filename: phpqrcode/qrspec.php</p>
+<p>Line Number: 148</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 133</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: QR_MODE_NUM</p>
+<p>Filename: phpqrcode/qrspec.php</p>
+<p>Line Number: 148</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 196</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: QR_MODE_NUM</p>
+<p>Filename: phpqrcode/qrspec.php</p>
+<p>Line Number: 148</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrsplit.php</p>
+<p>Line Number: 207</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrinput.php</p>
+<p>Line Number: 503</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrinput.php</p>
+<p>Line Number: 204</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrinput.php</p>
+<p>Line Number: 204</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrinput.php</p>
+<p>Line Number: 204</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrinput.php</p>
+<p>Line Number: 204</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrinput.php</p>
+<p>Line Number: 204</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrinput.php</p>
+<p>Line Number: 204</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrinput.php</p>
+<p>Line Number: 204</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrinput.php</p>
+<p>Line Number: 204</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrinput.php</p>
+<p>Line Number: 250</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrinput.php</p>
+<p>Line Number: 250</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrinput.php</p>
+<p>Line Number: 250</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Use of undefined constant QR_MODE_NUM - assumed 'QR_MODE_NUM'</p>
+<p>Filename: phpqrcode/qrinput.php</p>
+<p>Line Number: 250</p>
+
+</div>

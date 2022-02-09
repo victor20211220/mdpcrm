@@ -1,0 +1,146 @@
+@import helpers/colors
+@import helpers/mixins
+@import helpers/fonts
+
+*
+	box-sizing: border-box
+
+body
+	font: 8pt/1.2em $fontHelveticaNeue
+	padding: 40px 40px 0 40px
+	margin: 0
+
+tr, td, th
+	page-break-inside: avoid !important
+
+.wrapper
+	+clearfix
+
+	&.light-bg
+		background: $color-light-bg
+
+	&.two-columns
+		> div
+			float: left
+			width: 50%
+
+#invoice-details
+	text-align: right
+	clear: both
+
+	> div
+		font-size: 16pt
+		font-weight: bold
+		line-height: 1.4em
+
+	> span
+		font-size: 8pt
+		color: $color-gray-text
+
+#details
+	margin: 90px 0
+	padding: 30px
+	width: 85%
+	float: right
+	background: $color-light-bg
+	position: relative
+	right: -40px
+
+	> div
+		font-size: 8pt
+		line-height: 1.6em
+
+		> b
+			font: bold 8pt/1.2em $fontHelveticaNeueBold
+			color: $color-gray-text
+
+		> .details
+			margin-top: 1em
+
+			> b
+				font: bold 8pt/1.2em $fontHelveticaNeueBold
+				display: block
+				margin-bottom: 1em
+
+			> div
+				color: $color-gray-text
+
+				> span
+					color: $color-black
+					display: inline-block
+					width: 65px
+
+#products
+	width: 100%
+	border-bottom: 2px solid $color-gray-border
+	border-collapse: collapse
+	margin: 70px 0 0 0
+
+	th, td
+		font-size: 6pt
+		text-align: center
+
+		&:first-child
+			text-align: left
+			padding-left: 15px
+
+		&:last-child
+			text-align: right
+			padding-right: 15px
+
+	th
+		font-weight: bold
+		border-bottom: 3px solid $color-dark-border
+		padding: 2em 0
+
+	td
+		padding: 1em 0
+		vertical-align: top
+		border-bottom: 2px solid $color-light-bg
+
+		.description
+			color: $color-gray-text
+
+#subtotal
+	width: 100%
+	padding-top: 30px
+
+	td
+		font: bold 6pt/1em $fontHelveticaNeueBold
+		text-align: right
+		padding: 0 15px .5em 15px
+
+#total
+	width: 100%
+
+	td
+		font: bold 9pt/1.2em $fontHelveticaNeueBold
+		text-align: right
+		padding: 1em 15px
+
+#amount-in-words
+	font-size: 6pt
+	text-align: right
+	background: $color-darker-bg
+	padding: 1.8em 15px
+	margin: 0
+
+	b
+		font-family: $fontHelveticaNeueBold
+
+#comments
+	font-size: 6pt
+	margin: 80px 0 10px 0
+
+#footer
+	font-size: 6pt
+	line-height: 1.6em
+	color: $color-gray-text
+	border-top: 2px solid $color-gray-border
+	padding-top: 20px
+
+	table
+		width: 100%
+
+		td
+			vertical-align: top

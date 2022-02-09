@@ -1,0 +1,15 @@
+{
+  "require": {
+    "mikehaertl/phpwkhtmltopdf": "^2.2",
+    "php-imap/php-imap": "3.0.*"
+  },
+
+  "require-dev" : {
+    "ext-mcrypt": "*",
+    "ext-zip": "*",
+    "ext-xml": "*",
+    "ext-gd": "*",
+    "ext-intl": "*",
+    "ext-imap": "*"
+  }
+}

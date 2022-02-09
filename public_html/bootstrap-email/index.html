@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>mdpCRM EMAIL center</title>
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Malar" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Mukta Malar', sans-serif;
+            font-size: 13px;
+            color: #545b62 !important;
+        }
+
+        .fa-xxs {
+            font-size: .70em;
+        }
+
+        .email-control-row {
+            height: 72px !important;
+            padding-top: 14px !important;
+        }
+
+        .email-control-btn {
+            width: 96px;
+        }
+
+        .email-boxes-row {
+            border-top: 5px solid #F2F2F2
+        }
+
+        .email-nav-btn {
+            background: #FFFFFF;
+            border-color: #FFFFFF
+        }
+
+        .email-nav-btn:hover {
+            background: #F2F2F2;
+            border-color: #FFFFFF;
+        }
+
+        .email-item-table {
+            background: #FFFFFF;
+            width: 100% !important;
+            height: 100%;
+            white-space: nowrap;
+            vertical-align: top;
+            border-left: 10px solid #F2F2F2;
+            border-right: 10px solid #f2f2f2;
+            border-top: 5px solid #f2f2f2;
+            border-bottom: 10px solid #f2f2f2;
+        }
+
+        .email-item-row {
+             background: #F2F2F2;
+             vertical-align: top;
+        }
+
+        .email-item-head-tr {
+            height: 50px;
+        }
+
+        .email-item-body-tr {
+            height: 40px;
+            border-top: 2px solid #F2F2F2;
+            border-bottom: 2px solid #F2F2F2;
+        }
+
+        .email-item-body-tr:hover {
+            cursor: pointer;
+            height: 40px;
+            border-top: 2px solid #F2F2F2;
+            border-bottom: 2px solid #F2F2F2;
+            background: #FAFAFA;
+        }
+
+        .email-item-col-check {
+            width: 42px;
+        }
+
+        .email-item-col-subject {
+            width: auto;
+            min-width: 115px;
+            max-width: 115px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .email-item-col-star {
+            width: 42px;
+        }
+
+        .email-item-col-from {
+            width: auto;
+            min-width: 115px;
+            max-width: 115px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .email-item-col-date {
+            width: 125px
+        }
+
+        .email-item-col-size {
+            width: 75px
+        }
+
+        .email-item-col-flag {
+            width: 42px
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container-fluid" style="border-bottom: 5px solid #F1F2F3">
+    <div class="row text-center">
+        <h5 class="text-left pt-2 pl-3" style="color: #888888">
+            mdpCRM email center panel
+        </h5>
+    </div>
+</div>
+
+<div class="container-fluid p-3">
+    <div class="row email-control-row">
+        <div class="col-2 text-center" style="vertical-align: center">
+            <button class="btn btn-sm btn-success" style="width: 170px">
+                <span class="fas fa-pencil fa-xxs"></span>
+                Compose
+            </button>
+        </div>
+        <div class="col-10">
+            <div class="row">
+                <div class="col-8 pl-5">
+                    <button class="btn btn-sm btn-light email-control-btn mr-2">
+                        <span class="fas fa-sync fa-xxs mr-1"></span>
+                        Refresh
+                    </button>
+                    <button class="btn btn-sm btn-light email-control-btn mr-2">
+                        <span class="fas fa-reply fa-xxs mr-1"></span>
+                        Reply
+                    </button>
+                    <button class="btn btn-sm btn-light email-control-btn mr-2">
+                        <span class="fas fa-reply-all fa-xxs mr-1"></span>
+                        Reply all
+                    </button>
+                    <button class="btn btn-sm btn-light email-control-btn mr-2">
+                        <span class="fas fa-reply fa-rotate-180 fa-xxs mr-1"></span>
+                        Forward
+                    </button>
+                    <button class="btn btn-sm btn-light email-control-btn mr-2">
+                        <span class="fas fa-trash-alt fa-xxs mr-1"></span>
+                        Delete
+                    </button>
+                    <button class="btn btn-sm btn-light email-control-btn">
+                        <span class="fas fa-check-circle fa-xxs mr-1"></span>
+                        Mark
+                    </button>
+                </div>
+                <div class="col-4">
+                    <div class="input-group input-group-sm">
+                        <input type="text" class="form-control" style="border-right: none" placeholder="Search something here"/>
+                        <div class="input-group-append">
+                            <div class="input-group-text" style="background: #FFFFFF; border-left: none">
+                                <i class="fas fa-search fa-xxs"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row email-boxes-row">
+        <div class="col-2">
+            <div class="mt-2"></div>
+            <div class="btn btn-sm btn-light col text-left email-nav-btn mb-1">
+                <span class="fas fa-inbox fa-xxs mr-1"></span>
+                Inbox
+            </div>
+            <div class="btn btn-sm btn-light col text-left email-nav-btn mb-1">
+                <span class="fas fa-envelope fa-xxs mr-1"></span>
+                Sent items
+            </div>
+            <div class="btn btn-sm btn-light col text-left email-nav-btn mb-1">
+                <span class="fas fa-envelope-open fa-xxs mr-1"></span>
+                Drafts
+            </div>
+            <div class="btn btn-sm btn-light col text-left email-nav-btn mb-1">
+                <span class="fas fa-trash fa-xxs mr-1"></span>
+                Trash
+            </div>
+            <div class="btn btn-sm btn-light col text-left email-nav-btn mb-1">
+                <span class="fas fa-ban fa-xxs mr-1"></span>
+                Junk
+            </div>
+            <div class="btn btn-sm btn-light col text-left email-nav-btn mb-1">
+                <span class="fas fa-folder-open fa-xxs mr-1"></span>
+                Suppliers folder
+            </div>
+            <div class="btn btn-sm btn-light col text-left email-nav-btn mb-1 ml-2">
+                <span class="fas fa-folder fa-xxs mr-1"></span>
+                Supplier #1
+            </div>
+            <div class="btn btn-sm btn-light col text-left email-nav-btn mb-1 ml-2">
+                <span class="fas fa-folder fa-xxs mr-1"></span>
+                Supplier #2
+            </div>
+            <div class="btn btn-sm btn-light col text-left email-nav-btn mb-1 ml-2">
+                <span class="fas fa-folder fa-xxs mr-1"></span>
+                Supplier #3
+            </div>
+            <div class="btn btn-sm btn-light col text-left email-nav-btn mb-1">
+                <span class="fas fa-folder-open fa-xxs mr-1"></span>
+                Clients folder
+            </div>
+            <div class="btn btn-sm btn-light col text-left email-nav-btn mb-1 ml-2">
+                <span class="fas fa-folder fa-xxs mr-1"></span>
+                Client #1
+            </div>
+            <div class="btn btn-sm btn-light col text-left email-nav-btn mb-1 ml-2">
+                <span class="fas fa-folder fa-xxs mr-1"></span>
+                Client #2
+            </div>
+            <div class="btn btn-sm btn-light col text-left email-nav-btn mb-1 ml-2">
+                <span class="fas fa-folder fa-xxs mr-1"></span>
+                Client #3
+            </div>
+        </div>
+        <div class="col-10">
+            <div class="row email-item-row">
+                <table class="email-item-table">
+                    <thead style="border-bottom: 12px solid #F2F2F2;">
+                    <tr class="email-item-head-tr">
+                        <th class="email-item-col-check text-center">
+                            <i class="fas fa-cog fa-xxs"></i>
+                        </th>
+                        <th class="email-item-col-subject">
+                            SUBJECT
+                        </th>
+                        <th class="email-item-col-star text-center">
+                            <span class="fas fa-star fa-xxs"></span>
+                        </th>
+                        <th class="email-item-col-from">
+                            FROM
+                        </th>
+                        <th class="email-item-col-date">
+                            DATE
+                        </th>
+                        <th class="email-item-col-size">
+                            SIZE
+                        </th>
+                        <th class="email-item-col-flag text-center">
+                            <span class="fas fa-flag fa-xxs"></span>
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr class="email-item-body-tr">
+                        <td class="email-item-col-check text-center">
+                            <input type="checkbox">
+                        </td>
+                        <td class="email-item-col-subject">
+                            ALSO lietuva: lenovo nuolaidos lki -20% ! lenovo company
+                        </td>
+                        <td class="email-item-col-star text-center">
+                            <span class="fas fa-star fa-xxs"></span>
+                        </td>
+                        <td class="email-item-col-from">
+                            ALSO lietuva
+                        </td>
+                        <td class="email-item-col-date">
+                            21/10/2018 08:56
+                        </td>
+                        <td class="email-item-col-size">
+                            21,256 KB
+                        </td>
+                        <td class="email-item-col-flag text-center">
+                            <span class="fas fa-flag fa-xxs"></span>
+                        </td>
+                    </tr>
+
+                    <tr class="email-item-body-tr">
+                        <td class="email-item-col-check text-center">
+                            <input type="checkbox">
+                        </td>
+                        <td class="email-item-col-subject">
+                            ALSO lietuva: lenovo nuolaidos lki -20% ! lenovo company
+                        </td>
+                        <td class="email-item-col-star text-center">
+                            <span class="fas fa-star fa-xxs"></span>
+                        </td>
+                        <td class="email-item-col-from">
+                            ALSO lietuva
+                        </td>
+                        <td class="email-item-col-date">
+                            21/10/2018 08:56
+                        </td>
+                        <td class="email-item-col-size">
+                            21,256 KB
+                        </td>
+                        <td class="email-item-col-flag text-center">
+                            <span class="fas fa-flag fa-xxs"></span>
+                        </td>
+                    </tr>
+
+                    <tr class="email-item-body-tr">
+                        <td class="email-item-col-check text-center">
+                            <input type="checkbox">
+                        </td>
+                        <td class="email-item-col-subject">
+                            ALSO lietuva: lenovo nuolaidos lki -20% ! lenovo company
+                        </td>
+                        <td class="email-item-col-star text-center">
+                            <span class="fas fa-star fa-xxs"></span>
+                        </td>
+                        <td class="email-item-col-from">
+                            ALSO lietuva
+                        </td>
+                        <td class="email-item-col-date">
+                            21/10/2018 08:56
+                        </td>
+                        <td class="email-item-col-size">
+                            21,256 KB
+                        </td>
+                        <td class="email-item-col-flag text-center">
+                            <span class="fas fa-flag fa-xxs"></span>
+                        </td>
+                    </tr>
+
+                    <tr class="email-item-body-tr">
+                        <td class="email-item-col-check text-center">
+                            <input type="checkbox">
+                        </td>
+                        <td class="email-item-col-subject">
+                            ALSO lietuva: lenovo nuolaidos lki -20% ! lenovo company
+                        </td>
+                        <td class="email-item-col-star text-center">
+                            <span class="fas fa-star fa-xxs"></span>
+                        </td>
+                        <td class="email-item-col-from">
+                            ALSO lietuva
+                        </td>
+                        <td class="email-item-col-date">
+                            21/10/2018 08:56
+                        </td>
+                        <td class="email-item-col-size">
+                            21,256 KB
+                        </td>
+                        <td class="email-item-col-flag text-center">
+                            <span class="fas fa-flag fa-xxs"></span>
+                        </td>
+                    </tr>
+
+                    <tr class="email-item-body-tr">
+                        <td class="email-item-col-check text-center">
+                            <input type="checkbox">
+                        </td>
+                        <td class="email-item-col-subject">
+                            ALSO lietuva: lenovo nuolaidos lki -20% ! lenovo company
+                        </td>
+                        <td class="email-item-col-star text-center">
+                            <span class="fas fa-star fa-xxs"></span>
+                        </td>
+                        <td class="email-item-col-from">
+                            ALSO lietuva
+                        </td>
+                        <td class="email-item-col-date">
+                            21/10/2018 08:56
+                        </td>
+                        <td class="email-item-col-size">
+                            21,256 KB
+                        </td>
+                        <td class="email-item-col-flag text-center">
+                            <span class="fas fa-flag fa-xxs"></span>
+                        </td>
+                    </tr>
+
+                    <tr class="email-item-body-tr">
+                        <td class="email-item-col-check text-center">
+                            <input type="checkbox">
+                        </td>
+                        <td class="email-item-col-subject">
+                            ALSO lietuva: lenovo nuolaidos lki -20% ! lenovo company
+                        </td>
+                        <td class="email-item-col-star text-center">
+                            <span class="fas fa-star fa-xxs"></span>
+                        </td>
+                        <td class="email-item-col-from">
+                            ALSO lietuva
+                        </td>
+                        <td class="email-item-col-date">
+                            21/10/2018 08:56
+                        </td>
+                        <td class="email-item-col-size">
+                            21,256 KB
+                        </td>
+                        <td class="email-item-col-flag text-center">
+                            <span class="fas fa-flag fa-xxs"></span>
+                        </td>
+                    </tr>
+
+                    <tr class="email-item-body-tr">
+                        <td class="email-item-col-check text-center">
+                            <input type="checkbox">
+                        </td>
+                        <td class="email-item-col-subject">
+                            ALSO lietuva: lenovo nuolaidos lki -20% ! lenovo company
+                        </td>
+                        <td class="email-item-col-star text-center">
+                            <span class="fas fa-star fa-xxs"></span>
+                        </td>
+                        <td class="email-item-col-from">
+                            ALSO lietuva
+                        </td>
+                        <td class="email-item-col-date">
+                            21/10/2018 08:56
+                        </td>
+                        <td class="email-item-col-size">
+                            21,256 KB
+                        </td>
+                        <td class="email-item-col-flag text-center">
+                            <span class="fas fa-flag fa-xxs"></span>
+                        </td>
+                    </tr>
+
+                    <tr class="email-item-body-tr">
+                        <td class="email-item-col-check text-center">
+                            <input type="checkbox">
+                        </td>
+                        <td class="email-item-col-subject">
+                            ALSO lietuva: lenovo nuolaidos lki -20% ! lenovo company
+                        </td>
+                        <td class="email-item-col-star text-center">
+                            <span class="fas fa-star fa-xxs"></span>
+                        </td>
+                        <td class="email-item-col-from">
+                            ALSO lietuva
+                        </td>
+                        <td class="email-item-col-date">
+                            21/10/2018 08:56
+                        </td>
+                        <td class="email-item-col-size">
+                            21,256 KB
+                        </td>
+                        <td class="email-item-col-flag text-center">
+                            <span class="fas fa-flag fa-xxs"></span>
+                        </td>
+                    </tr>
+
+                    <tr class="email-item-body-tr">
+                        <td class="email-item-col-check text-center">
+                            <input type="checkbox">
+                        </td>
+                        <td class="email-item-col-subject">
+                            ALSO lietuva: lenovo nuolaidos lki -20% ! lenovo company
+                        </td>
+                        <td class="email-item-col-star text-center">
+                            <span class="fas fa-star fa-xxs"></span>
+                        </td>
+                        <td class="email-item-col-from">
+                            ALSO lietuva
+                        </td>
+                        <td class="email-item-col-date">
+                            21/10/2018 08:56
+                        </td>
+                        <td class="email-item-col-size">
+                            21,256 KB
+                        </td>
+                        <td class="email-item-col-flag text-center">
+                            <span class="fas fa-flag fa-xxs"></span>
+                        </td>
+                    </tr>
+
+                    <tr class="email-item-body-tr">
+                        <td class="email-item-col-check text-center">
+                            <input type="checkbox">
+                        </td>
+                        <td class="email-item-col-subject">
+                            ALSO lietuva: lenovo nuolaidos lki -20% ! lenovo company
+                        </td>
+                        <td class="email-item-col-star text-center">
+                            <span class="fas fa-star fa-xxs"></span>
+                        </td>
+                        <td class="email-item-col-from">
+                            ALSO lietuva
+                        </td>
+                        <td class="email-item-col-date">
+                            21/10/2018 08:56
+                        </td>
+                        <td class="email-item-col-size">
+                            21,256 KB
+                        </td>
+                        <td class="email-item-col-flag text-center">
+                            <span class="fas fa-flag fa-xxs"></span>
+                        </td>
+                    </tr>
+
+                    <tr class="email-item-body-tr">
+                        <td class="email-item-col-check text-center">
+                            <input type="checkbox">
+                        </td>
+                        <td class="email-item-col-subject">
+                            ALSO lietuva: lenovo nuolaidos lki -20% ! lenovo company
+                        </td>
+                        <td class="email-item-col-star text-center">
+                            <span class="fas fa-star fa-xxs"></span>
+                        </td>
+                        <td class="email-item-col-from">
+                            ALSO lietuva
+                        </td>
+                        <td class="email-item-col-date">
+                            21/10/2018 08:56
+                        </td>
+                        <td class="email-item-col-size">
+                            21,256 KB
+                        </td>
+                        <td class="email-item-col-flag text-center">
+                            <span class="fas fa-flag fa-xxs"></span>
+                        </td>
+                    </tr>
+
+                    <tr class="email-item-body-tr">
+                        <td class="email-item-col-check text-center">
+                            <input type="checkbox">
+                        </td>
+                        <td class="email-item-col-subject">
+                            ALSO lietuva: lenovo nuolaidos lki -20% ! lenovo company
+                        </td>
+                        <td class="email-item-col-star text-center">
+                            <span class="fas fa-star fa-xxs"></span>
+                        </td>
+                        <td class="email-item-col-from">
+                            ALSO lietuva
+                        </td>
+                        <td class="email-item-col-date">
+                            21/10/2018 08:56
+                        </td>
+                        <td class="email-item-col-size">
+                            21,256 KB
+                        </td>
+                        <td class="email-item-col-flag text-center">
+                            <span class="fas fa-flag fa-xxs"></span>
+                        </td>
+                    </tr>
+
+                    <tr class="email-item-body-tr">
+                        <td class="email-item-col-check text-center">
+                            <input type="checkbox">
+                        </td>
+                        <td class="email-item-col-subject">
+                            ALSO lietuva: lenovo nuolaidos lki -20% ! lenovo company
+                        </td>
+                        <td class="email-item-col-star text-center">
+                            <span class="fas fa-star fa-xxs"></span>
+                        </td>
+                        <td class="email-item-col-from">
+                            ALSO lietuva
+                        </td>
+                        <td class="email-item-col-date">
+                            21/10/2018 08:56
+                        </td>
+                        <td class="email-item-col-size">
+                            21,256 KB
+                        </td>
+                        <td class="email-item-col-flag text-center">
+                            <span class="fas fa-flag fa-xxs"></span>
+                        </td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap core JavaScript -->
+<script src="jquery/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

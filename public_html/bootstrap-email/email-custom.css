@@ -1,0 +1,13 @@
+body {
+    font-family: 'Mukta Malar', sans-serif;
+    font-size: 13px;
+    color: #545b62 !important;
+}
+
+.fa-xxs {
+    font-size: .70em;
+}
+
+.email-control-btn {
+    width: 96px;
+}

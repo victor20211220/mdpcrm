@@ -1,0 +1,272 @@
+@font-face {
+	font-family: "Roboto";
+	src: url("../fonts/roboto/roboto-regular-webfont.eot");
+	src: url("../fonts/roboto/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/roboto-regular-webfont.woff2") format("woff2"), url("../fonts/roboto/roboto-regular-webfont.woff") format("woff"), url("../fonts/roboto/roboto-regular-webfont.ttf") format("truetype"), url("../fonts/roboto/roboto-regular-webfont.svg#robotoregular") format("svg");
+	font-weight: normal;
+	font-style: normal
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+a {
+	color: #0087C3;
+	text-decoration: none;
+}
+
+body {
+	position: relative;
+	width: 21cm;
+	height: 29.7cm;
+	margin: 0 auto;
+	color: #555555;
+	background: #FFFFFF;
+	font: 12px/1.2em "Roboto", sans-serif;;
+	font-size: 14px;
+}
+
+header {
+	padding: 10px 0;
+	margin-bottom: 20px;
+}
+
+#logo {
+	float: left;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+#logo img {
+	height: 70px;
+}
+
+#company {
+	margin-top: -80px;
+	float: right;
+	text-align: right;
+}
+
+#details {
+	margin-bottom: 50px;
+	margin-left: 30px;
+}
+
+#client {
+	padding-left: 0;
+	float: left;
+}
+
+#client .to {
+	color: #777777;
+}
+
+.cutted {
+	background-image: url('../../responsive/img/topcut.png');
+	background-repeat: no-repeat; /* for vertical repeat */
+	background-repeat: no-repeat; /* for horizontal repeat */
+	height: xxpx;
+}
+
+.cutted2 {
+	background-image: url('../../responsive/img/topcut2.png');
+	background-repeat: no-repeat; /* for vertical repeat */
+	background-repeat: no-repeat; /* for horizontal repeat */
+	height: xxpx;
+}
+
+h2.name {
+	text-transform: uppercase;
+	font-size: 1.8em;
+	font-weight: normal;
+	margin: 0;
+}
+
+#invoice {
+	float: right;
+	text-align: right;
+}
+
+#invoice h1 {
+	color: #0087C3;
+	font-size: 2.4em;
+	line-height: 1em;
+	font-weight: normal;
+	margin: 0 0 10px 0;
+}
+
+#invoice .date {
+	font-size: 1.1em;
+	color: #777777;
+}
+
+.tabelaitems {
+	width: 100%;
+	border-spacing: 0;
+	margin-bottom: 20px;
+}
+
+.tabelaitems th {
+}
+
+.tabelaitems td {
+	padding: 10px;
+	text-align: center;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.tabelaitems th {
+	white-space: nowrap;
+	font-weight: normal;
+	color: #64a6da;
+	height: 50px;
+	border-bottom: 2px solid #64a6da;
+}
+
+.tabelaitems td {
+	line-height: 5px;
+	text-align: right;
+	font-weight: 100;
+	text-transform: uppercase;
+	border-bottom: 1px solid #64a6da;
+}
+
+.tabelaitems td h3 {
+	color: #57B223;
+	font-size: 1.2em;
+	font-weight: normal;
+	margin: 0 0 0.2em 0;
+}
+
+.tabelaitems .no {
+	color: #FFFFFF;
+	font-size: 1.6em;
+	background: #57B223;
+}
+
+.tabelaitems .desc {
+	text-align: center;
+}
+
+.tabelaitems .unit {
+	background: #DDDDDD;
+}
+
+.tabelaitems .qty {
+}
+
+.tabelaitems .total {
+	background: #57B223;
+	color: #FFFFFF;
+}
+
+.tabelaitems td.unit, .tabelaitems td.qty, .tabelaitems td.total {
+	font-size: 1.2em;
+}
+
+.tabelaitems tbody tr:last-child td {
+	border: none;
+}
+
+.tablefoot .l {
+	text-align: left;
+}
+
+.tablefoot .r {
+	text-align: right;
+}
+
+.tablefoot {
+	margin-right: 30px;
+}
+
+.tablefoot td {
+	width: 100px;
+}
+
+.tablefoot {
+	padding: 10px 0;
+	border-bottom: none;
+	font-size: 0.9em;
+	white-space: nowrap;
+}
+
+.tabelaitems tfoot tr:first-child td {
+	border-top: none;
+}
+
+.tabelaitems tfoot tr:last-child td {
+	color: #57B223;
+	font-size: 1.4em;
+	border-top: 1px solid #57B223;
+}
+
+.tabelaitems tfoot tr td:first-child {
+	border: none;
+}
+
+#thanks {
+	font-size: 2em;
+	margin-bottom: 50px;
+}
+
+#notices {
+	padding-left: 6px;
+	border-left: 6px solid #0087C3;
+}
+
+strong {
+	font-weight: bold;
+}
+
+#notices .notice {
+	font-size: 1.2em;
+}
+
+footer {
+	color: #777777;
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	bottom: 0;
+	border-top: 1px solid #AAAAAA;
+	padding: 8px 0;
+	text-align: center;
+}
+
+.tdfoot1 {
+}
+
+.tablefoototal {
+	font-size: 1.1em;
+	color: #4296d4;
+	padding: 5px 0;
+	margin-right: 30px;
+}
+
+#commentsfooter {
+	color: #72acda !important;
+	height: 19px;
+	font-style: italic !important;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+}
+
+#spancomments {
+	font-weight: bold;
+	color: #72acda;
+}
+
+#spancomments2 {
+	color: #72acda;
+}
+
+#tablefooter {
+	width: 100%;
+	background-color: #b8d390;
+	color: #FFF;
+	padding-left: 50px;
+}

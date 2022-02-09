@@ -1,0 +1,227 @@
+@CHARSET "UTF-8";
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/roboto-regular-webfont.eot");
+  src: url("../fonts/roboto/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/roboto-regular-webfont.woff2") format("woff2"), url("../fonts/roboto/roboto-regular-webfont.woff") format("woff"), url("../fonts/roboto/roboto-regular-webfont.ttf") format("truetype"), url("../fonts/roboto/roboto-regular-webfont.svg#robotoregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 6, ../sass/styles.sass */
+body {
+  font: 13px/1.2em "Roboto", sans-serif;
+  color: #7ba4d8;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 13, ../sass/styles.sass */
+#header p {
+  float: left;
+  width: 270px;
+  background: #ececec;
+  margin: 0;
+}
+/* line 19, ../sass/styles.sass */
+#header p img {
+  display: block;
+  margin: 0 auto;
+}
+/* line 23, ../sass/styles.sass */
+#header div {
+  font-size: 16px;
+  line-height: 64px;
+  height: 48px;
+  color: white;
+  margin-left: 290px;
+  background: #bfd293;
+  padding: 0 15px;
+}
+
+/* line 32, ../sass/styles.sass */
+.date {
+  font-size: 14px;
+  text-align: right;
+  border-right: 60px solid #7ba4d8;
+  padding-right: 20px;
+  margin: 20px 0 70px 0;
+}
+
+/* line 39, ../sass/styles.sass */
+h2 {
+  font-weight: normal;
+  color: #bfd293;
+}
+
+/* line 43, ../sass/styles.sass */
+h3 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #777777;
+}
+
+/* line 48, ../sass/styles.sass */
+div.addresses {
+  padding: 0 55px;
+}
+/* line 51, ../sass/styles.sass */
+div.addresses table#addresses-data {
+  width: 90%;
+  margin: 0 auto 55px auto;
+  border-collapse: collapse;
+}
+/* line 56, ../sass/styles.sass */
+div.addresses table#addresses-data td {
+  line-height: 1.8em;
+  color: black;
+  width: 50%;
+  vertical-align: top;
+}
+
+/* line 62, ../sass/styles.sass */
+.addr-rows {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+/* line 67, ../sass/styles.sass */
+.addr-rows td {
+  padding: 2px 0;
+}
+/* line 70, ../sass/styles.sass */
+.addr-rows td.first-child {
+  width: 100px;
+}
+
+/* line 73, ../sass/styles.sass */
+#invoice-details {
+  background: #ececec;
+  margin: 0 35px;
+}
+/* line 77, ../sass/styles.sass */
+#invoice-details #invoice-details-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+/* line 82, ../sass/styles.sass */
+#invoice-details #invoice-details-wrapper table.details {
+  width: 100%;
+  border-collapse: collapse;
+  border-bottom: 2px solid #7ba4d8;
+}
+/* line 87, ../sass/styles.sass */
+#invoice-details #invoice-details-wrapper table.details th {
+  font-size: 14px;
+  font-weight: normal;
+  border-bottom: 3px solid #7ba4d8;
+  padding: 15px 0;
+}
+/* line 93, ../sass/styles.sass */
+#invoice-details #invoice-details-wrapper table.details th.first-child {
+  text-align: left;
+  padding-left: 15px;
+}
+/* line 98, ../sass/styles.sass */
+#invoice-details #invoice-details-wrapper table.details tr td {
+  text-align: center;
+  color: black;
+  padding: 15px 0;
+  border-top: 1px solid black;
+}
+/* line 104, ../sass/styles.sass */
+#invoice-details #invoice-details-wrapper table.details tr td.first-child {
+  text-align: left;
+  padding-left: 15px;
+}
+/* line 108, ../sass/styles.sass */
+#invoice-details #invoice-details-wrapper table.details tr.first-child td {
+  border: none;
+  padding-top: 35px;
+}
+/* line 112, ../sass/styles.sass */
+#invoice-details #invoice-details-wrapper table.details tr.last-child td {
+  padding-bottom: 35px;
+}
+/* line 115, ../sass/styles.sass */
+#invoice-details #invoice-details-wrapper table.total {
+  float: right;
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+/* line 121, ../sass/styles.sass */
+#invoice-details #invoice-details-wrapper table.total tr td {
+  padding: 5px 0;
+  text-align: center;
+}
+/* line 125, ../sass/styles.sass */
+#invoice-details #invoice-details-wrapper table.total tr td.first-child {
+  text-align: left;
+  padding-left: 10px;
+}
+/* line 129, ../sass/styles.sass */
+#invoice-details #invoice-details-wrapper table.total tr.last-child td {
+  padding-bottom: 20px;
+}
+/* line 133, ../sass/styles.sass */
+#invoice-details #invoice-details-wrapper table.total tfoot td {
+  padding: 15px 0;
+  font-weight: bold;
+  text-align: center;
+  border-top: 2px solid #7ba4d8;
+}
+/* line 139, ../sass/styles.sass */
+#invoice-details #invoice-details-wrapper div {
+  font-size: 12px;
+  margin: 10px 0 0 5px;
+}
+/* line 143, ../sass/styles.sass */
+#invoice-details #invoice-details-wrapper p {
+  font-size: 14px;
+  background: white;
+  padding: 10px 15px;
+  margin-top: 5px;
+}
+
+/* line 149, ../sass/styles.sass */
+.comment {
+  padding: 40px 0 0 55px;
+}
+/* line 152, ../sass/styles.sass */
+.comment strong {
+  display: block;
+}
+
+/* line 155, ../sass/styles.sass */
+.qr-code {
+  padding-right: 40px;
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+/* line 161, ../sass/styles.sass */
+#footer table {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+}
+/* line 166, ../sass/styles.sass */
+#footer table td {
+  font-size: 10px;
+  color: white;
+  background: #7ba4d8;
+  width: 20%;
+  padding: 10px 0 10px 20px;
+  margin: 0;
+}
+/* line 174, ../sass/styles.sass */
+#footer table td.green {
+  font-size: 14px;
+  text-align: center;
+  background: #bfd293;
+  padding-left: 0;
+}
+/* line 180, ../sass/styles.sass */
+#footer table td p {
+  margin: 10px 0;
+}

@@ -1,0 +1,114 @@
+=absolute($w,$h)
+	display: block
+	position: absolute
+	width: $w
+	height: $h
+
+=align-vertical($h)
+	top: 50%
+	margin-top: -$h/2
+
+=align-horizontal($w)
+	left: 50%
+	margin-left: -$w/2
+
+=absolute-center
+	left: 0
+	top: 0
+	right: 0
+	bottom: 0
+	margin: auto
+
+
+=do-transform($t)
+	-webkit-transform: $t
+	transform: $t
+
+=do-transition($t)
+	-webkit-transition: $t
+	transition: $t
+
+=add-shadow($s...)
+	-webkit-box-shadow: $s
+	-moz-box-shadow: $s
+	box-shadow: $s
+
+
+=display-flex
+	display: -webkit-flex
+	display: -ms-flexbox
+	display: flex
+
+=flex-basis($b)
+	-webkit-flex-basis: $b
+	-ms-flex-preferred-size: $b
+	flex-basis: $b
+
+=flex-flow($f)
+	-webkit-flex-flow: $f
+	-ms-flex-flow: $f
+	flex-flow: $f
+
+=flex-wrap($w)
+	-webkit-flex-wrap: $w
+	-ms-flex-wrap: $w
+	flex-wrap: $w
+
+=flex-direction($d)
+	-webkit-flex-direction: $d
+	flex-direction: $d
+	box-orient: vertical
+
+=flex-justify($j)
+	-webkit-box-pack: $j
+	-webkit-justify-content: $j
+	justify-content: $j
+	@if $j == space-around
+		-ms-flex-pack: distribute
+	@else if $j == space-between
+		-ms-flex-pack: justify
+
+=flex-grow($g)
+	-webkit-box-flex: $g
+	-webkit-flex-grow: $g
+	-ms-flex-positive: $g
+	flex-grow: $g
+
+=flex($f)
+	-webkit-box-flex: $f
+	-webkit-flex: $f
+	-ms-flex: $f
+	flex: $f
+
+=align-self($a)
+	-webkit-align-self: $a
+	-ms-flex-item-align: $a
+	align-self: $a
+
+=align-content($p)
+	-webkit-align-content: $p
+	-ms-flex-line-pack: $p
+	align-content: $p
+
+=align-flex-item($p)
+	-webkit-box-align: $p
+	-webkit-align-items: $p
+	-ms-flex-align: $p
+	align-items: $p
+
+=clearfix
+	&::after
+		clear: both
+		height: 0
+		display: block
+		content: " "
+
+=add-sprite-icon($icon)
+	background-image: sprite-url( $icons )
+	background-position: sprite-position($icons, #{$icon})
+	@include sprite-dimensions($icons, #{$icon})
+
+	@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 1.5)
+		&
+			background-image: sprite-url( $icons2x )
+			+background-size( image-width( sprite-path( $icons ) ), auto )

@@ -1,0 +1,20 @@
+@import compass/utilities/sprites
+@import compass/css3/background-size
+
+$icons: sprite-map("icons/*.png", $spacing: 0, $layout: horizontal)
+$icons2x: sprite-map("icons2x/*.png", $spacing: 0, $layout: horizontal)
+
+.icons
+	display: inline-block
+	background-image: sprite-url($icons)
+
+$icons-list: sprite-names( $icons )
+@each $icon in $icons-list
+	.icons.icons-#{$icon}
+		background-position: sprite-position($icons, #{$icon})
+		+sprite-dimensions($icons, #{$icon})
+
+		@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 1.5)
+			&
+				background-image: sprite-url( $icons2x )
+				+background-size( image-width( sprite-path( $icons ) ), auto )

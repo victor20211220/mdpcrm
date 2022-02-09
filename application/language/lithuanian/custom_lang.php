@@ -1,0 +1,25 @@
+<?php
+
+$lang = [
+    'add_supplier'            => 'Naujas tiekėjas',
+    'change_supplier'         => 'Pakeisti tiekėją',
+    'create_invoice_supplier' => 'Sukurti naują sąskaitą tiekėjui',
+    'create_received_invoice' => 'Įvesti gautą sąskaitą',
+    'expenses'                => 'Išlaidos',
+    'expenses_by_supplier'    => 'Išlaidos pagal tiekėją',
+    'expenses_with_tax'       => 'Išlaidos su mokesčiais',
+    'received_invoices_total' => 'Gautų sąskaitų suma',
+    'supplier_name'           => 'Tiekėjo pavadinimas',
+    'supplier_reg_number'     => 'Tiekėjo registracijos numeris',
+    'suppliers'               => 'Tiekėjai',
+    'tasks_in_progress'       => 'Vykdmos užduotys',
+    'tasks_not_started'       => 'Nepradėtos užduotys',
+    'time'                    => 'Laikas',
+    'total_without_vat'       => 'Viso be PVM',
+    'total_with_vat'          => 'Viso su PVM',
+    'vat_amount'              => 'PVM suma',
+    'unpaid_invoices'         => 'Nepadengtos sąskaitos',
+    'VAT'                     => 'PVM',
+    'view_suppliers'          => 'Peržiūrėti tiekėjus',
+    'new_total_with_tax'      => 'Tarpinė suma su PVM',
+];

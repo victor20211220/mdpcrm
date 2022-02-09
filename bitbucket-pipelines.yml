@@ -1,0 +1,15 @@
+image: php:7.0
+
+pipelines:
+  branches:
+    master:
+      - step:
+          caches:
+            - composer
+          script:
+            - apt-get update -qq && apt-get install -y -qq unzip curl openssh-client libc-client-dev libkrb5-dev
+            - docker-php-ext-configure imap --with-kerberos --with-imap-ssl
+            - docker-php-ext-install -j$(nproc) iconv imap
+            - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+            - composer install --no-dev --quiet
+            - bash ./application/bin/auto-deploy.sh

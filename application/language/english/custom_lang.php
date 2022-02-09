@@ -1,0 +1,25 @@
+<?php
+
+$lang = [
+    'add_supplier'            => 'Add Supplier',
+    'change_supplier'         => 'Change Supplier',
+    'create_invoice_supplier' => 'Create Invoice Supplier',
+    'create_received_invoice' => 'Create Received Invoice',
+    'expenses'                => 'Expenses',
+    'expenses_by_supplier'    => 'Expenses by Supplier',
+    'expenses_with_tax'       => 'Expenses with taxes',
+    'received_invoices_total' => 'Received invoices total',
+    'supplier_name'           => "Suplier Name",
+    'supplier_reg_number'     => 'Registration Number',
+    'suppliers'               => 'Suppliers',
+    'tasks_in_progress'       => 'Tasks in progress',
+    'tasks_not_started'       => 'Tasks not started',
+    'time'                    => 'Time',
+    'total_without_vat'       => 'Total w/o VAT',
+    'total_with_vat'          => 'Total with VAT',
+    'vat_amount'              => 'VAT amount',
+    'unpaid_invoices'         => 'Unpaid Invoices',
+    'VAT'                     => 'VAT',
+    'view_suppliers'          => 'View Suppliers',
+    'new_total_with_tax'      => 'Subtotal with VAT',
+];

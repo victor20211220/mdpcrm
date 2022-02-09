@@ -1,0 +1,14 @@
+/application/config/development
+/application/logs/*
+!/application/logs/index.html
+/uploads/temp/*
+!/uploads/temp/remove.txt
+/uploads/archive/*
+/uploads/customer_files/*
+/uploads/import/*
+/uploads/temp/*
+/application/helpers/mpdf/ttfontdata/*
+
+.idea
+.sass-cache
+adminer.php

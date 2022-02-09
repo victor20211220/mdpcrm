@@ -1,0 +1,237 @@
+@CHARSET "UTF-8";
+@font-face {
+	font-family: "Roboto";
+	src: url("../fonts/roboto/roboto-regular-webfont.eot");
+	src: url("../fonts/roboto/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/roboto-regular-webfont.woff2") format("woff2"), url("../fonts/roboto/roboto-regular-webfont.woff") format("woff"), url("../fonts/roboto/roboto-regular-webfont.ttf") format("truetype"), url("../fonts/roboto/roboto-regular-webfont.svg#robotoregular") format("svg");
+	font-weight: normal;
+	font-style: normal
+}
+
+body {
+	font: 13px/1.2em "Roboto", sans-serif;
+	color: #7ba4d8;
+	margin: 0
+}
+
+#logo {
+	max-height: 80px !important;
+}
+
+#wrapper {
+	padding: 0 50px
+}
+
+#header {
+	padding-top: 25px
+}
+
+#header div#logo p {
+	font-size: 12px;
+	color: #bfd293;
+	padding: 8px 0 0 0;
+	margin: 0;
+	background: #fff
+}
+
+#header div#code {
+	float: right;
+	width: 200px;
+	text-align: right
+}
+
+h2 {
+	font-size: 15px;
+	font-weight: normal;
+	color: #bfd293;
+	margin: 0
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: normal;
+	color: #777;
+	margin-top: 0
+}
+
+#invoice {
+	background: #7ba4d8;
+	width: 420px
+}
+
+#invoice td {
+	padding: 10px 20px
+}
+
+#invoice-number {
+	font-size: 18px;
+	line-height: 1.2;
+	color: #fff
+}
+
+div.addresses {
+	padding-top: 30px;
+	clear: both
+}
+
+div.addresses table {
+	width: 100%;
+	border-collapse: collapse
+}
+
+div.addresses table td#from, div.addresses table td#to {
+	font-size: 12px;
+	line-height: 1.6em;
+	color: #6b6b6a;
+	width: 50%;
+	vertical-align: top
+}
+
+div.addresses table td#from {
+	text-align: right
+}
+
+.addr-rows {
+	width: 400px;
+	border-collapse: collapse
+}
+
+.addr-rows td {
+	font-size: 12px;
+	padding: 0;
+	color: #6b6b6a
+}
+
+.addr-rows td.first-child {
+	width: 120px
+}
+
+#invoice-details-wrapper {
+	margin: 0 auto;
+	padding-top: 50px
+}
+
+#invoice-details-wrapper table.details {
+	width: 100%;
+	border-collapse: collapse;
+	border-bottom: 2px solid #6b6b6a
+}
+
+#invoice-details-wrapper table.details th {
+	font-size: 14px;
+	font-weight: normal;
+	color: #fff;
+	padding: 6px 0;
+	background: #b1b1b0
+}
+
+#invoice-details-wrapper table.details th.first-child {
+	text-align: left;
+	padding-left: 15px;
+	width: 200px
+}
+
+#invoice-details-wrapper table.details tr td {
+	font-size: 13px;
+	text-align: center;
+	color: #777;
+	padding: 6px 0;
+	border-bottom: 1px solid #777
+}
+
+#invoice-details-wrapper table.details tr td.first-child {
+	text-align: left;
+	padding-left: 15px
+}
+
+#invoice-details-wrapper table.details tr.first-child td {
+	padding-top: 20px
+}
+
+#invoice-details-wrapper table.details tr.last-child td {
+	padding-bottom: 20px
+}
+
+#invoice-details-wrapper table.total {
+	float: right;
+	margin-top: 15px;
+	border-collapse: collapse
+}
+
+#invoice-details-wrapper table.total tr td {
+	font-size: 14px;
+	padding: 5px 0;
+	text-align: center
+}
+
+#invoice-details-wrapper table.total tr td.first-child {
+	text-align: left;
+	padding-left: 10px
+}
+
+#invoice-details-wrapper table.total tr.last-child td {
+	padding-bottom: 10px
+}
+
+#invoice-details-wrapper table.total tfoot {
+	background: #bfd293
+}
+
+#invoice-details-wrapper table.total tfoot td {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	padding: 15px 0
+}
+
+#invoice-details-wrapper div {
+	clear: both;
+	font-size: 12px;
+	margin: 10px 0 0 5px
+}
+
+#invoice-details-wrapper p {
+	font-size: 14px;
+	color: #7ba4d8;
+	background: #ececec;
+	padding: 10px 15px;
+	margin-top: 5px
+}
+
+.comment {
+	font-size: 14px;
+	line-height: 1.2;
+	padding: 40px 0;
+}
+
+.comment strong {
+	display: block
+}
+
+#footer table {
+	width: 100%;
+	font-size: 13px;
+	border: none;
+	border-top: 2px solid #7ba4d8
+}
+
+#footer table td {
+	font-size: 12px;
+	color: #6b6b6a;
+	width: 25%;
+	padding: 10px 0 10px 20px;
+	margin: 0;
+	vertical-align: top
+}
+
+#footer table td:nth-child(1) {
+	padding-left: 50px !important;
+}
+
+#footer table td p {
+	margin: 0 0 1em 0
+}
+
+#commentsfooter {
+	padding: 0 50px 20px 50px;
+}

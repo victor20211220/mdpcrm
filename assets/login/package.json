@@ -1,0 +1,18 @@
+{
+  "name": "mdpCRM",
+  "version": "1.0.0",
+  "description": "mdpCRM",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mdpCRM"
+  ],
+  "author": "mdpCRM",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-compass": "^2.1.0"
+  }
+}

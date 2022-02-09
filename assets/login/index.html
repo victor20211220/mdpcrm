@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<title>mdpcrm</title>
+
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/login/css/styles.css">
+</head>
+<body>
+	<section id="main">
+		<div>
+			<a href="#" class="icons icons-logo"></a>
+		</div>
+		<section>
+			<h1>Prisijugti</h1>
+
+			<?php $this->layout->load_view('layout/alerts'); ?>
+
+			<form method="post" action="">
+				<div class="form-group">
+					<div>
+						<span class="icons icons-email"></span>
+					</div>
+					<input type="email" name="email" placeholder="El. Pasto Adresas" required>
+				</div>
+				<div class="form-group">
+					<div>
+						<span class="icons icons-password"></span>
+					</div>
+					<input type="password" name="password" placeholder="Slaptazodis" required>
+				</div>
+				<div class="form-button">
+					<button name="btn_login">LOGIN</button>
+				</div>
+				<section>
+					<div>
+						<input type="checkbox" name="remember-me" id="remember-me">
+						<label for="remember-me">Isiminti</label>
+					</div>
+					<nav>
+						<a href="<?php echo base_url(); ?>register/company">Registruotis</a> |
+						<a href="<?php echo base_url(); ?>sessions/passwordreset">Pamirsote slaptazodj?</a>
+					</nav>
+				</section>
+			</form>
+		</section>
+	</section>
+</body>
+</html>

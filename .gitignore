@@ -1,0 +1,10 @@
+.idea
+.DS_Store
+vendor
+!.gitkeep
+
+uploads/qr_code/
+uploads/pdf/invoices/
+uploads/pdf/quotes/
+uploads/customer_files/
+assets/invoices/footer-*.html

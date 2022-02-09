@@ -1,0 +1,253 @@
+@CHARSET "UTF-8";
+@font-face {
+	font-family: "Roboto";
+	src: url("../fonts/roboto/roboto-regular-webfont.eot");
+	src: url("../fonts/roboto/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/roboto-regular-webfont.woff2") format("woff2"), url("../fonts/roboto/roboto-regular-webfont.woff") format("woff"), url("../fonts/roboto/roboto-regular-webfont.ttf") format("truetype"), url("../fonts/roboto/roboto-regular-webfont.svg#robotoregular") format("svg");
+	font-weight: normal;
+	font-style: normal
+}
+
+.qrimg {
+	width: 75px;
+	height: 75px;
+}
+
+#header table {
+	width: 100%;
+	padding: 35px 30px 45px 30px;
+}
+
+body {
+	font: 12px/1.2em "Roboto", sans-serif;;
+	color: #7ba4d8;
+	margin: 0;
+	padding: 0
+}
+
+#divqrcode {
+	border: 5px solid #333;
+}
+
+#qrcodeimg {
+	float: right;
+	right: 10px;
+}
+
+.qrimg {
+	margin-right: -8px;
+	margin-top: -8px;
+}
+
+#hrtop strong {
+	margin-top: 15px;
+	vertical-align: middle;
+	text-transform: uppercase;
+}
+
+#hrtop {
+	background-color: #a7c973;
+	height: 12px;
+	margin-right: 30px;
+	margin-left: 30px;
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+	font-weight: 600;
+	padding: 10px;
+	vertical-align: middle;
+}
+
+#date {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 20px;
+	color: #7e7e7e;
+}
+
+#date span {
+	color: #7eabc7;
+}
+
+.addr-rows {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 6px
+}
+
+.addr-rows td {
+	padding: 2px 0;
+	color: #777
+}
+
+.addr-rows td.first-child {
+	width: 160px
+}
+
+div.addresses {
+	margin-top: 50px;
+	padding: 0 30px
+}
+
+div.addresses table#addresses-data {
+	width: 100%;
+	margin: 0 auto 60px auto;
+	border-collapse: collapse
+}
+
+div.addresses table#addresses-data td {
+	font-size: 12px;
+	line-height: 1.6em;
+	color: #000;
+	width: 50%;
+	vertical-align: top
+}
+
+.company {
+	text-transform: uppercase;
+}
+
+#invoice-details {
+	margin: 0 35px
+}
+
+#invoice-details #invoice-details-wrapper {
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px 0
+}
+
+#invoice-details #invoice-details-wrapper table.details {
+	width: 100%;
+	border-collapse: collapse;
+	border-bottom: 2px solid #7ba4d8
+}
+
+#invoice-details #invoice-details-wrapper table.details th {
+	font-size: 13px;
+	font-weight: normal;
+	border-bottom: 3px solid #7ba4d8;
+	padding: 6px 0
+}
+
+#invoice-details #invoice-details-wrapper table.details th.first-child {
+	text-align: left;
+	padding-left: 15px;
+	width: 150px
+}
+
+#invoice-details #invoice-details-wrapper table.details tr td {
+	font-size: 13px;
+	text-align: center;
+	color: #777;
+	padding: 6px 0;
+	border-top: 1px solid #fff
+}
+
+#invoice-details #invoice-details-wrapper table.details tr td.first-child {
+	text-align: left;
+	padding-left: 15px
+}
+
+#invoice-details #invoice-details-wrapper table.details tr.first-child td {
+	border: none;
+	padding-top: 20px
+}
+
+#invoice-details #invoice-details-wrapper table.details tr.last-child td {
+	padding-bottom: 20px
+}
+
+#invoice-details #invoice-details-wrapper table.total {
+	float: right;
+	margin-top: 15px;
+	border-collapse: collapse
+}
+
+#invoice-details #invoice-details-wrapper table.total tr td {
+	padding: 5px 0;
+	text-align: center
+}
+
+#invoice-details #invoice-details-wrapper table.total tr td.first-child {
+	text-align: left;
+	padding-left: 10px;
+	color: #5d9fbf !important;
+}
+
+#invoice-details #invoice-details-wrapper table.total tr.last-child td {
+	padding-bottom: 10px;
+	color: #5d9fbf !important;
+}
+
+#invoice-details #invoice-details-wrapper table.total tfoot td {
+	padding: 15px 0;
+	font-weight: bold;
+	text-align: center;
+	border-top: 1px solid #333
+}
+
+#invoice-details #invoice-details-wrapper div {
+	clear: both;
+	font-size: 11px;
+	margin: 10px 0 0 5px
+}
+
+#invoice-details #invoice-details-wrapper p {
+	font-size: 13px;
+	background: #fff;
+	padding: 10px 15px;
+	margin-top: 5px
+}
+
+.invoice-thead th {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+table.details tbody tr td {
+	background-color: #ddd;
+	border-bottom: 1px solid #fff !important;
+}
+
+.details {
+	border: none;
+}
+
+.total td {
+	color: #5d9fbf !important;
+}
+
+#amountwords {
+	font-size: 55px !important;
+}
+
+#commentsfooter {
+	background-color: #006cb7;
+	color: #FFF;
+	font-size: 14px;
+	line-height: 1.2em;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+#tdfooterterms {
+}
+
+#tablefooter {
+	width: 100%;
+	margin-left: 40px;
+	color: #808080;
+}
+
+#footer {
+	width: 100%;
+}
+
+.from {
+	color: #808080;
+}
+
+.details thead th {
+	color: black;
+}

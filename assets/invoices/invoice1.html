@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="{css}">
+</head>
+<body>
+	<div class="wrapper two-columns">
+		<div class="logo">
+			<img src="{company_logo}" alt="" height="100">
+		</div>
+		<div>
+			<div id="invoice-details">
+				<div>
+					<span>Date:</span> {date}
+				</div>
+				<div>
+					<span>Number:</span> {number}
+				</div>
+				<h1>Invoice</h1>
+			</div>
+		</div>
+	</div>
+
+	<div id="details" class="wrapper two-columns">
+		<div>
+			<b>From</b>
+			<div class="details">
+				<b>{from_name}</b>
+				<div><span>Address:</span> {from_address}</div>
+				<div><span>Code:</span> {from_code}</div>
+				<div><span>VAT:</span> {from_vat}</div>
+				<div><span>Bank:</span> {from_bank}</div>
+			</div>
+		</div>
+		<div>
+			<b>To</b>
+			<div class="details">
+				<b>{to_name}</b>
+				<div><span>Address:</span> {to_address}</div>
+				<div><span>Code:</span> {to_code}</div>
+				<div><span>VAT:</span> {to_vat}</div>
+				<div><span>Bank:</span> {to_bank}</div>
+			</div>
+		</div>
+	</div>
+
+	<table id="products">
+		<thead>
+			<tr>
+				<th>ITEM</th>
+				<th>QUANTITY</th>
+				<th>PRICE</th>
+				<th>DISCOUNT</th>
+				<th>VAT</th>
+				<th>VAT</th>
+				<th>TOTAL EX. VAT</th>
+			</tr>
+		</thead>
+		<tbody>
+			{items}
+		</tbody>
+	</table>
+
+	<div class="wrapper two-columns">
+		<div>
+			<div id="qr-code">
+				<img src="{qr_code}" alt="" height="100">
+			</div>
+		</div>
+		<div>
+			<table id="subtotal">
+				<tr>
+					<td width="50%">TOTAL EX. VAT:</td>
+					<td>EUR {total_ex_vat}</td>
+				</tr>
+				<tr>
+					<td>VAT:</td>
+					<td>EUR {total_vat}</td>
+				</tr>
+			</table>
+
+			<table id="total">
+				<tr>
+					<td width="50%">TOTAL:</td>
+					<td>EUR {total}</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+	<p id="amount-in-words">
+		<b>Amount in words:</b>
+		{amount_in_words}
+	</p>
+
+	<p id="comments">
+		<b>COMMENTS:</b> {comments}
+	</p>
+
+	<div id="footer">
+		<table>
+			<tr>
+				<td width="25%">1 page of 1</td>
+				<td width="25%">{from_name}</td>
+				<td width="25%">
+					Reg. code: {from_code}<br>
+					VAT: {from_vat}<br>
+					E-mail: {from_email}
+				</td>
+				<td>
+					Bank. Acc: {from_bank_account}<br>
+					IBAN: {from_iban}
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

@@ -1,0 +1,154 @@
+/**
+ * parallax.css
+ * @Author Original @msurguy -> http://bootsnipp.com/snippets/featured/parallax-login-form
+ * @Reworked By @kaptenn_com 
+ * @package PARALLAX LOGIN.
+ */
+@font-face {
+font-family: 'Aller-Regular';
+    src: 
+    url('./../fonts/Aller_Rg.ttf') format('truetype'),
+    url('./../fonts/Aller_Bdlt.ttf') format('truetype'),
+    url('./../fonts/Aller_Bd.ttf') format('truetype'),
+    url('./../fonts/Aller_lt.ttf') format('truetype'),
+    url('./../fonts/Aller_Ltlt.ttf') format('truetype'),
+    url('./../fonts/AllerDisplay.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.select2{
+font-family: "Aller-Regular" !important;
+vertical-align: -webkit-baseline-middle !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: 34px !important;
+}
+.select2-selection__placeholder{
+
+vertical-align: -webkit-baseline-bottom !important;
+color:#ced0d1 !important;font-weight: 600 !important;
+font-family: "Aller-Regular" !important;
+}
+::-webkit-input-placeholder { color:#ced0d1 !important;font-weight: 600 !important; }
+::-moz-placeholder {  color:#ced0d1 !important;font-weight: 600 !important; } /* firefox 19+ */
+:-ms-input-placeholder {  color:#ced0d1 !important;font-weight: 600 !important; } /* ie */
+input:-moz-placeholder {  color:#ced0d1 !important;font-weight: 600 !important; }
+form {
+    margin-bottom: -30px !important;
+    margin-top: -40px !important;
+}
+    body {
+        background-color: #f8f8f8 !important;
+        font-family: 'Aller-Regular' !important;
+        
+    }
+  input[type="text"] {
+        margin-bottom: 5px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+n input[type="password"] {
+        margin-bottom: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+   .form-control {
+    border-radius: 5px !important;
+        position: relative;
+        font-size: 16px;
+        height: 45px !important;
+        padding: 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .vertical-offset-100 {
+        padding-top: 100px;
+    }
+
+
+    .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    }
+    .panel {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    }
+
+    .headingpanel{
+        color: #FFF !important;
+        background-color: #81c555 !important ;
+        text-align: center !important;
+    }
+
+    fieldset{
+        margin-top: -10px !important;
+        border:none !important;
+    }
+
+    .form-control{
+        margin-top:15px !important;
+    }
+
+    input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+
+.select2 {
+  font-family: 'FontAwesome'
+   border-radius: 5px !important;
+}
+
+
+
+
+
+.select2:focus{
+    border: 1px solid #26a9df !important;
+}
+button.btn.btn-lg.btn-primary.btn-block{
+    border-radius: initial !important;
+}
+
+.btncancel{
+    background-color: #dddddd !important;
+    color: #9c9c9c !important;
+    border-radius: initial !important;
+    height: 50px !important;
+}
+.form-control:focus{
+    border: 1px solid #26a9df !important;
+}
+.form-group{
+    margin-bottom: 10px !important;
+}
+.btnsub{
+    background-color: #26a9df !important;
+    color: #FFF !important;
+    border: none !important;
+    border-radius: initial !important;
+    height: 50px !important;
+}
+
+.select2-container--default .select2-selection--single{
+ border-radius: 5px !important;
+    border: 1px solid #ccc !important;
+}
+.btn{
+     border-radius: 5px !important;
+}
+span.select2.select2-container.select2-container--default.select2-container{
+
+    margin-top: 10px !important;
+}

@@ -1,0 +1,14 @@
+/* drag objects (DIV elements inside table cells) */
+.redips-drag {
+	cursor: move;
+	z-index: 10;
+}
+#table1 td{
+	height:44px;
+}
+.table{
+	margin-bottom:0px;
+}
+.label{
+	/*padding: 0.0em 0.6em ;*/
+}

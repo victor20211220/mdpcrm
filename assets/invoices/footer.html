@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="/usr/share/nginx/html/assets/invoices/assets/css/invoice-6.css">
+	<script>
+	function fetchVariables()
+	{
+		var vars={};
+		var x = document.location.search.substring(1).split('&');
+		for ( var i in x )
+		{
+			var z=x[i].split('=',2);
+				vars[ z[0] ] = unescape( z[1] );
+		}
+		var x=[ 'frompage','topage','page','webpage','section','subsection','subsubsection' ];
+		for ( var i in x )
+		{
+			var y = document.getElementsByClassName(x[i]);
+			for ( var j=0; j<y.length; ++j )
+				y[j].textContent = vars[x[i]];
+		}
+	}
+	</script>
+</head>
+<body onload="fetchVariables();">
+	<div id="footer">
+		<table>
+			<tr>
+				<td width="25%"><span class="page"></span> page of <span class="topage"></span></td>
+				<td width="25%">
+					{{ company }}<br>
+					{{ address }}<br>
+					{{ url }}
+				</td>
+				<td width="25%">
+					Reg. code: {{ reg_code }}<br>
+					VAT: {{ vat }}<br>
+					E-mail: {{ email }}
+				</td>
+				<td>
+					Bank. Acc: {{ iban }}<br>
+					SWIFT: {{ swift }}
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
